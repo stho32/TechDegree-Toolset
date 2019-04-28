@@ -46,7 +46,7 @@ Set-Location $RootFolder
 See the results here: Github-Pages-Link (will be replaced as soon as the project is complete)
 
 ## Todos
-" | Out-File "README.md"
+" | Out-File "README.md" -Encoding utf8
 
 "Documentation", "Documentation\ProvidedFiles", "Source" | 
     New-SubDirectory -RootFolder $RootFolder
